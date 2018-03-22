@@ -1,22 +1,22 @@
-You will need to fetch a bearer token from Twitter as documented Here, once you have it you can use it as follows.
+You will need to fetch a bearer token from Twitter as documented https://apps.twitter.com/app/
 
 var client = new Twitter({
   consumer_key: '',
   consumer_secret: '',
   bearer_token: ''
 });
+
 ## Requirements
 
 - node and npm
 
 ## How to Use
 
-1. Clone the repo: `
-2. Go into folder: `cd react-tweets`
-3. Install dependencies: `npm install`
-4. Create local MongoDB database called **react-tweets** (configured in `server.js`)
-5. Replace credentials for Twitter API (configured in `config.js`)
-6. Start the app: `node server.js`
-7. View in browser at: `http://localhost:8080`
-8. Tweet away!
-"# react-tweets-master" 
+_ Clone this repo 
+_ Install dependencies: `npm install`
+_ Create local MongoDB database called **react-tweets** (configured in `server.js`)
+_ Replace credentials for Twitter API (configured in `config.js`)
+_ Start the app: `node server.js`
+_ View in browser at: `http://localhost:8080`
+_ Tweet away!
+
