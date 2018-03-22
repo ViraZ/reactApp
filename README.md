@@ -13,11 +13,11 @@ var client = new Twitter({
 
 ## How to Use
 
-_ Clone this repo 
-_ Install dependencies: `npm install`
-_ Create local MongoDB database called **react-tweets** (configured in `server.js`)
-_ Replace credentials for Twitter API (configured in `config.js`)
-_ Start the app: `node server.js`
-_ View in browser at: `http://localhost:8080`
-_ Tweet away!
+1)Clone this repo 
+2)Install dependencies: `npm install`
+3)Create local MongoDB database called **react-tweets** (configured in `server.js`)
+4) Replace credentials for Twitter API (configured in `config.js`)
+5)Start the app: `node server.js`
+6)View in browser at: `http://localhost:8080`
+# Tweet away!
 
