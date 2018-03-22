@@ -1,5 +1,10 @@
-# Real Time Twitter Stream with Node and React
+You will need to fetch a bearer token from Twitter as documented Here, once you have it you can use it as follows.
 
+var client = new Twitter({
+  consumer_key: '',
+  consumer_secret: '',
+  bearer_token: ''
+});
 ## Requirements
 
 - node and npm
